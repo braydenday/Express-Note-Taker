@@ -1,3 +1,5 @@
+// this is all from cloned starter code
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
