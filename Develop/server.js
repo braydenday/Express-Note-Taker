@@ -67,7 +67,7 @@ function deleteNotes(id, notesArray) {
             break;
         }}
 }
-// delete command to remove old note from params
+// delete command to remove the old note from params
 app.delete('/api/notes/:id', (req, res) => {
     deleteNotes(req.params.id, savedNotes);
     res.json(true);
