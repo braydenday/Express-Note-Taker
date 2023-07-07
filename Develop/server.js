@@ -74,7 +74,7 @@ app.delete('/api/notes/:id', (req, res) => {
 });
 
 
-// app listening for server to start and kicks out our port terminal using a template literal (8080 in this case)
+// app listening for server to start and kicks out our port terminal using a template literal (8080)
 app.listen(PORT, () => {
     console.log(`listening on port ${PORT}`);
 });
